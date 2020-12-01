@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_login_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAcctLoginMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="?colorSecondary" />
+
+        <EditText
+            android:id="@+id/etvLoginEmail"
+            android:hint="Email"
+            android:drawableRight="@drawable/ic_baseline_alternate_amp_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/box_ring"
+            android:textColorHint="?colorSecondary" />
+
+        <EditText
+            android:id="@+id/etvLoginPassword"
+            android:hint="Password"
+            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/box_ring"
+            android:textColorHint="?colorSecondary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAccountLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="?android:textColor"
+                android:background="@drawable/button_login"
+                android:layout_weight=".5"
+                android:text="Login" />
+            <Button
+                android:id="@+id/btnAccountRecover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="?android:textColor"
+                android:background="@drawable/button_login"
+                android:layout_weight=".5"
+                android:text="Recover" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

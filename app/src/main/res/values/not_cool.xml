@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="UserNamesWeDontAllow">
+        <item>"admin"</item>
+        <item>"SuperUser"</item>
+        <item>"root"</item>
+        <item>"postgresuser"</item>
+        <item>"api"</item>
+        <item>"www"</item>
+        <item>"webhost"</item>
+        <item>"webadmin"</item>
+        <item>"droptable"</item>
+    </string-array>
+
+    <string-array name="WordsWeDontAllow">
+        <item>"fuck"</item>
+        <item>"bitch"</item>
+        <item>"fag"</item>
+        <item>"whore"</item>
+        <item>"slut"</item>
+        <item>"nige"</item>
+        <item>"spic"</item>
+        <item>"nazi"</item>
+        <item>"trump"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_create_content"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtAcctRespMMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="?colorSecondary" />
+
+        <EditText
+            android:id="@+id/etvAcctCreateName"
+            android:hint="Account Name"
+            android:drawableRight="@drawable/ic_baseline_alternate_amp_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/box_ring"
+            android:maxLength="64"
+            android:textColorHint="?colorSecondary" />
+
+        <EditText
+            android:id="@+id/etvAcctCreateEmail"
+            android:hint="Email"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/box_ring"
+            android:maxLength="64"
+            android:textColorHint="?colorSecondary" />
+
+        <EditText
+            android:id="@+id/etvAcctCreatePassword"
+            android:hint="Password"
+            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/box_ring"
+            android:maxLength="128"
+            android:textColorHint="?colorSecondary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAccountCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="?android:textColor"
+                android:background="@drawable/button_login"
+                android:layout_weight=".5"
+                android:text="Create" />
+            <Button
+                android:id="@+id/btnAccountLoginNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="?android:textColor"
+                android:background="@drawable/button_login"
+                android:layout_weight=".5"
+                android:text="Login" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
